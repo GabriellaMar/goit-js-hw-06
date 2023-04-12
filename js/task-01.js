@@ -1,13 +1,9 @@
 const categories = document.querySelector('#categories')
 
 // console.log(categories)
-
-
 const categoriesItems = document.querySelectorAll('.item');
 
 // console.log(categoriesItems)
-
-
 
 
 let categoriesCounter = 0;
