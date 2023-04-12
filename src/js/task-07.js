@@ -11,5 +11,5 @@ function changeFontSize() {
 
     console.log(inputEl.value)
 
-    spanText.style.fontSize = inputFontSize;
+    spanText.style.fontSize = `${inputFontSize}px`;
 }

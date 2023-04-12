@@ -22,9 +22,10 @@ console.log(`Number of categories: ${categoriesCounter}`)
 
 categoriesItems.forEach(function (item) {
 
-    const itemTitle = document.querySelector('h2');
+    const itemTitle = item.querySelector('h2');
 
     const itemTitleText = itemTitle.textContent;
+    
     console.log(`Category: ${itemTitleText}`);
 
     const itemsList = item.querySelectorAll('li');
