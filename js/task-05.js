@@ -16,9 +16,4 @@ function addInputText(event) {
         ? outputEl.textContent = event.currentTarget.value
         : outputEl.textContent = 'Anonymous'
 
-    // if (event.currentTarget.value !== '') {
-    //     outputEl.textContent = event.currentTarget.value
-    // }
-    // else 
-    // { outputEl.textContent = 'Anonymous' }
 }

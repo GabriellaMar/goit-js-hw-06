@@ -32,7 +32,6 @@ function createBoxes(amount) {
     divEl.style.backgroundColor = getRandomHexColor();
 
     boxesNodes.push(divEl);
-    // console.log(boxesNodes)
   }
 
   boxesEl.append(...boxesNodes);
