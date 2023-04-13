@@ -6,22 +6,12 @@ const ingredients = [
   'Herbs',
   'Condiments',
 ];
+
 const ingredientsList = document.querySelector('#ingredients')
+
+const list = ingredients.reduce((markup, ingredient) => markup + `<li class = 'item'>${ingredient}</li>`, '')
+
+ingredientsList.insertAdjacentHTML('afterbegin', list)
 console.log(ingredientsList)
 
-const addIngredientsList = ingredients => {
 
-  ingredients.forEach(function (item) {
-    const createList = document.createElement('li');
-
-    createList.textContent = item;
-
-    createList.classList.add('item')
-
-    ingredientsList.append(createList);
-    return ingredients
-
-  })
-
-}
-console.log(addIngredientsList(ingredients));

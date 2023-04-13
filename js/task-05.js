@@ -1,5 +1,7 @@
 const inputEl = document.querySelector('#name-input')
+
 const outputEl = document.querySelector('#name-output')
+
 const spanText = document.querySelector('#name-output')
 
 console.log(inputEl);
